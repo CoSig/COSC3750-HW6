@@ -1,0 +1,26 @@
+/*
+ * hw6_pcode.txt
+ * Author: Cole Sigmon
+ * Date : March 28, 2023
+ *
+ * COSC 3750, Homework 6
+ *
+ * This is psuedocode for wytar
+ */
+
+Create Makefile
+    Same as previous homeworks, slightly different
+
+wytar.h
+    #include everything needed
+    initialize things given from assignment
+    All funciton prototypes:
+        Create
+        Extract
+        Anything Create and Extract might need such as entry handling
+
+wytar.c
+    include "wytar.h"
+    contain all functions, no global variables, no main
+    use perror,fprint
+    if needed use fwrite, fread

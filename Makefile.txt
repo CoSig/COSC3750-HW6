@@ -1,0 +1,22 @@
+####################
+# Makefile
+# Author: Cole Sigmon
+# Date: Feb 21, 2023
+#
+# COSC 3750, Homework 4
+#
+# This is a make file for wytar.
+# Implemented with a clean method.
+# ##################
+
+CC = gcc
+CFLAGS = -Wall -ggdb
+RM = /bin/rm -f
+
+.PHONY: wytar clean
+
+wytar: wytar.c
+    ${CC} ${CFLAGS} wytar.c -o wytar
+
+clean:
+    ${RM} wytar
